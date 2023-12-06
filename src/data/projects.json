@@ -1,0 +1,34 @@
+[
+    {
+        "title": "React Native Developer",
+        "description": "I worked on a NFT marketplace building a full featured feed, an advanced search and some additional views. I used React Native alongside with XCode and Android Studio.",
+        "client": "Flip.xyz",
+        "date": "Jun 2023 - Nov 2023",
+        "location": "Remote",
+        "tech": "React Native"
+    },
+    {
+        "title": "Senior Frontend Developer",
+        "descriptiodn": "I used my problem-solving skills to work with clients as varied as Compeer Financial, Harvard Business School to luxury brands such as Tiffany's and Tag Heuer.",
+        "client": "IBM",
+        "date": "Jan 2020 - May 2023",
+        "location": "Remote",
+        "tech": "LWC, React"
+    },
+    {
+        "title": "Front End Developer",
+        "description": "I contributed to Orion, an ambitious SaaS project for computer-aided drug design.",
+        "client": "OpenEye, Cadence Molecular Sciences",
+        "date": "Feb 2016 - Dec 2019",
+        "location": "Santa Fe, NM",
+        "tech": "Angular and Javascript"
+    },
+    {
+        "title": "Co-founder / Full-Stack Web developer",
+        "description": "I built websites for commercial clients with WordPress, WoCommerce and PHP/MySQL and used fronend technologies such as HTML, CSS and Javascript. We also used some frameworks such as Angular, Backbone or React.",
+        "client": "Flip.xyz",
+        "date": "JMar 2015 - Apr 2016",
+        "location": "Albuquerque, NM",
+        "tech": "Angular, React"
+    }
+]

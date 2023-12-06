@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "name": "Github",
+        "link": "https://github.com/FlorianGoussin",
+        "icon": "/icons/github.svg"
+    },
+    {
+        "id": 1,
+        "name": "StackOverflow",
+        "link": "https://stackoverflow.com/users/2705463/florian-g",
+        "icon": "/icons/stackoverflow.svg"
+    },
+    {
+        "id": 2,
+        "name": "Twitter",
+        "link": "https://twitter.com/FlorianGoussin",
+        "icon": "/icons/twitter.svg"
+    }
+]
