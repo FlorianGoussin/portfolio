@@ -9,7 +9,7 @@ import { Contact, Projects } from '../components/main'
 
 const IndexPage = () => (
     <Layout>
-        <div>IndexPage</div>
+        <div>IndexPage Test for Deployment</div>
         <Projects />
         <Contact />
     </Layout>
