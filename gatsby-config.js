@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+    pathPrefix: "/portfolio",
     siteMetadata: {
         title: `Florian Goussin - Portfolio`,
         description: `Hello, I'm Florian Goussin and Frontend developer`,
