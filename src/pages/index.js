@@ -14,7 +14,15 @@ const GridAnim = 'grid_anim.mp4';
 const IndexPage = () => {
     return (
         <Layout>
-            <Video className='video-tag' autoPlay loop muted>
+            <Video
+                className='video-tag'
+                autoPlay
+                loop
+                muted
+                playsinline
+                poster="grid_anim.png"
+                preload="auto"
+            >
                 <source src={GridAnim} type='video/mp4' />
             </Video>
             {/* <Projects />
