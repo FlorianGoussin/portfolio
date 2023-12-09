@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import { ThemeContext } from 'providers/ThemeProvider'
 import { Footer } from '../'
 import { Global } from '../styles'
+import { WipFlag } from './styles'
 import './fonts.css'
 
 export const Layout = ({ children }) => {
@@ -9,9 +10,11 @@ export const Layout = ({ children }) => {
 
     return (
         <>
+            <WipFlag>Work in progress...</WipFlag>
             {/*<Global colorMode={colorMode} />*/}
             {children}
-            <Footer />
+            <WipFlag>Sorry for keeping you waiting!</WipFlag>
+            {/* <Footer /> */}
         </>
     )
 }
