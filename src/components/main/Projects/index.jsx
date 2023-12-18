@@ -16,21 +16,21 @@ export const Projects = () => {
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{
-                    background: 'whitesmoke',
+                    background: '#F6F8F9',
                     color: '',
+                    borderRadius: 0,
+                    boxShadow: '0 2px 0 #ddd'
                 }}
                 contentArrowStyle={{
                     borderRight: '7px solid  rgb(33, 150, 243)',
+                    borderRightColor: 'whitesmoke',
                 }}
                 date={project.date}
                 iconStyle={{
-                    background: 'whitesmoke',
-                    color: '',
+                    boxShadow: 'none'
                 }}
-                icon={<WorkIcon />}
-                contentArrowStyle={{
-                    borderRightColor: 'whitesmoke',
-                }}
+                // icon={<WorkIcon />}
+                icon={false}
             >
                 <h3 className="vertical-timeline-element-title">
                     {project.title}
