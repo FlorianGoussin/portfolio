@@ -13,7 +13,7 @@ export const About = () => {
         <Wrapper id="about">
             <Header />
             <AboutWrapper as={Container}>
-                <Details colorMode={colorMode}>
+                <Details $colorMode={colorMode}>
                     <h4>I’m Florian Goussin and I’m a Frontend developer!</h4>
                     {/* <Button as={AnchorLink} href="#contact">
                         Hire me

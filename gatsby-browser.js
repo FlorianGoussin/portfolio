@@ -1,7 +1,6 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/
- */
+import React from 'react';
+import ThemeProvider from 'providers/ThemeProvider';
 
-// You can delete this file if you're not using it
+export const onServiceWorkerUpdateReady = () => window.location.reload(true);
+
+export const wrapRootElement = ({ element }) => <ThemeProvider>{element}</ThemeProvider>;

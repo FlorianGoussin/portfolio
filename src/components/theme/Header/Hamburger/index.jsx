@@ -8,9 +8,9 @@ const Hamburger = ({ navbarMobile, setNavbarMobile }) => {
 
     return (
         <Wrapper $navbarMobile={navbarMobile} onClick={() => setNavbarMobile(!navbarMobile)}>
-            <Bar $top="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
-            <Bar $mid="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
-            <Bar $bottom="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
+            <Bar $top="true" $navbarMobile={navbarMobile} $colorMode={colorMode} />
+            <Bar $mid="true" $navbarMobile={navbarMobile} $colorMode={colorMode} />
+            <Bar $bottom="true" $navbarMobile={navbarMobile} $colorMode={colorMode} />
         </Wrapper>
     )
 };
