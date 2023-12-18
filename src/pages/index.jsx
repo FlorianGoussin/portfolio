@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from 'react'
-import { Link } from 'gatsby'
-import { StaticImage } from 'gatsby-plugin-image'
+// import { Link } from 'gatsby'
+// import { StaticImage } from 'gatsby-plugin-image'
 
 import { Layout } from '../components/theme/index.js'
 import Seo from '../components/seo.js'
-import * as styles from '../components/index.module.css'
+// import * as styles from '../components/index.module.css'
 import { Video } from '../components/styles.js'
 import { Contact, Projects } from '../components/main/index.js'
 import { About } from '../components/main/About'
@@ -32,7 +32,7 @@ const IndexPage = () => {
                 autoPlay
                 loop
                 muted
-                playsinline
+                playsInline
                 poster="grid_anim.png"
                 preload="auto"
             >

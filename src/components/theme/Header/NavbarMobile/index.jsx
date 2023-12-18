@@ -7,7 +7,7 @@ const NavbarMobile = ({ navbarMobile, setNavbarMobile }) => {
     const { colorMode } = useContext(ThemeContext);
 
     return (
-        <Wrapper active={navbarMobile} onClick={setNavbarMobile} colorMode={colorMode}>
+        <Wrapper $active={navbarMobile} $colorMode={colorMode} onClick={setNavbarMobile}>
             <NavbarLinks />
         </Wrapper>
     )

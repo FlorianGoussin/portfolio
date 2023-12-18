@@ -9,7 +9,7 @@ export const Header = () => {
 
 	return (
 		<Wrapper>
-			<Overlay navbarMobile={navbarMobile} onClick={() => setNavbarMobile(!navbarMobile)} />
+			<Overlay $navbarMobile={navbarMobile} onClick={() => setNavbarMobile(!navbarMobile)} />
 			<NavbarDesktop />
 			<Hamburger navbarMobile={navbarMobile} setNavbarMobile={setNavbarMobile} />
 			<NavbarMobile navbarMobile={navbarMobile} setNavbarMobile={setNavbarMobile} />

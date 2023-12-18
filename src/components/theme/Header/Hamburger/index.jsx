@@ -7,10 +7,10 @@ const Hamburger = ({ navbarMobile, setNavbarMobile }) => {
     const { colorMode } = useContext(ThemeContext);
 
     return (
-        <Wrapper navbarMobile={navbarMobile} onClick={() => setNavbarMobile(!navbarMobile)}>
-            <Bar top navbarMobile={navbarMobile} colorMode={colorMode} />
-            <Bar mid navbarMobile={navbarMobile} colorMode={colorMode} />
-            <Bar bottom navbarMobile={navbarMobile} colorMode={colorMode} />
+        <Wrapper $navbarMobile={navbarMobile} onClick={() => setNavbarMobile(!navbarMobile)}>
+            <Bar $top="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
+            <Bar $mid="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
+            <Bar $bottom="true" $navbarMobile={navbarMobile} colorMode={colorMode} />
         </Wrapper>
     )
 };

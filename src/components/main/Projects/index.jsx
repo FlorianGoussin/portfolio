@@ -4,16 +4,16 @@ import {
     VerticalTimelineElement,
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
-import AddIcon from '@mui/icons-material/Add'
-import SchoolIcon from '@mui/icons-material/School'
-import WorkIcon from '@mui/icons-material/Work'
+// import AddIcon from '@mui/icons-material/Add'
+// import SchoolIcon from '@mui/icons-material/School'
+// import WorkIcon from '@mui/icons-material/Work'
 import projects from 'data/projects'
 
 export const Projects = () => {
     const getTimelineProjects = () =>
-        projects?.length &&
-        projects.map(project => (
+        projects?.length && projects.map((project) => (
             <VerticalTimelineElement
+                key={project.title}
                 className="vertical-timeline-element--work"
                 contentStyle={{
                     background: '#F6F8F9',
@@ -29,8 +29,7 @@ export const Projects = () => {
                 iconStyle={{
                     boxShadow: 'none'
                 }}
-                // icon={<WorkIcon />}
-                icon={false}
+            // icon={<WorkIcon />   
             >
                 <h3 className="vertical-timeline-element-title">
                     {project.title}
@@ -46,7 +45,7 @@ export const Projects = () => {
         ))
 
     return (
-        <section classname="projects">
+        <section className="projects" id="projects">
             <VerticalTimeline lineColor="whitesmoke">
                 {getTimelineProjects()}
             </VerticalTimeline>

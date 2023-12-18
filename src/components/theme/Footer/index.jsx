@@ -7,17 +7,10 @@ export const Footer = () => (
     <Wrapper>
         <Flex as={Container}>
             <Details>
-                <h2>Florian Goussin</h2>
+                {/* <h2>Florian Goussin</h2> */}
                 <span>
-                    © All rights are reserved | {new Date().getFullYear()} |
-                    Made with &nbsp;-&nbsp;
-                    <a
-                        href="https://smakosh.com/?ref=portfolio-dev"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                    >
-                        Florian Goussin
-                    </a>
+                    © All rights are reserved |
+                    Florian Goussin - {new Date().getFullYear()}
                 </span>
             </Details>
             <Links>

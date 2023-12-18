@@ -8,9 +8,9 @@ const NavbarLinks = ({ desktop }) => {
     const { colorMode } = useContext(ThemeContext);
 
     return (
-        <Wrapper desktop={desktop} colorMode={colorMode}>
+        <Wrapper $desktop={desktop} colorMode={colorMode}>
             <AnchorLink href="#about">About</AnchorLink>
-            <AnchorLink href="#projects">Projects</AnchorLink>
+            <AnchorLink href="#projects">Experience</AnchorLink>
             <AnchorLink href="#contact">Contact</AnchorLink>
             <ColorModeToggle />
         </Wrapper>

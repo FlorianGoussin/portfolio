@@ -10,10 +10,10 @@ const NavbarDesktop = () => {
 
     return (
         <Wrapper as={Container}>
-            <Brand as={Link} to="/" colorMode={colorMode}>
+            <Brand as={Link} to="/" $colorMode={colorMode}>
                 Florian Goussin
             </Brand>
-            <NavbarLinks desktop />
+            <NavbarLinks desktop="true" />
         </Wrapper>
     );
 };

@@ -141,7 +141,7 @@ export const ContactForm = () => {
                         </InputField>
                     )}
                     <Center>
-                        <Button secondary type="submit" disabled={isSubmitting}>
+                        <Button $secondary="true" type="submit" disabled={isSubmitting}>
                             Submit
                         </Button>
                     </Center>
