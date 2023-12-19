@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { ThemeContext } from 'providers/ThemeProvider';
-import ColorModeToggle from 'components/theme/Header/ColorModeToggle';
+// import ColorModeToggle from 'components/theme/Header/ColorModeToggle';
 import { Wrapper } from './styles';
 
 const NavbarLinks = ({ desktop }) => {
@@ -12,7 +12,7 @@ const NavbarLinks = ({ desktop }) => {
             <AnchorLink href="#about">About</AnchorLink>
             <AnchorLink href="#projects">Experience</AnchorLink>
             <AnchorLink href="#contact">Contact</AnchorLink>
-            <ColorModeToggle />
+            {/* <ColorModeToggle /> */}
         </Wrapper>
     )
 

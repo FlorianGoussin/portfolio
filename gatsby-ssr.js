@@ -6,6 +6,6 @@ export const wrapRootElement = ({ element }) => <ThemeProvider>{element}</ThemeP
 /**
  * @type {import('gatsby').GatsbySSR['onRenderBody']}
  */
-exports.onRenderBody = ({ setHtmlAttributes }) => {
+export const onRenderBody = ({ setHtmlAttributes }) => {
     setHtmlAttributes({ lang: `en` })
 }

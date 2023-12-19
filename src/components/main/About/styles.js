@@ -31,10 +31,11 @@ export const Details = styled.div`
     h1 {
         margin-bottom: 2rem;
         font-size: 36pt;
-        color: ${({ colorMode }) => (colorMode === 'light' ? '#212121' : '#fff')};
-
+        
+        color: ${({ $colorMode }) => ($colorMode === 'light' ? '#212121' : '#fff')};
+        // color: 'black';
         @media (max-width: 960px) {
-            mix-blend-mode: ${({ colorMode }) => (colorMode === 'light' ? 'unset' : 'difference')};
+            mix-blend-mode: ${({ $colorMode }) => ($colorMode === 'light' ? 'unset' : 'difference')};
         }
 
         @media (max-width: 680px) {
@@ -46,10 +47,10 @@ export const Details = styled.div`
         margin-bottom: 2.5rem;
         font-size: 32pt;
         font-weight: normal;
-        color: ${({ colorMode }) => (colorMode === 'light' ? '#707070' : '#e6e6e6')};
+        color: ${({ $colorMode }) => ($colorMode === 'light' ? '#707070' : '#e6e6e6')};
 
         @media (max-width: 960px) {
-        mix-blend-mode: ${({ colorMode }) => (colorMode === 'light' ? 'unset' : 'difference')};
+        mix-blend-mode: ${({ $colorMode }) => ($colorMode === 'light' ? 'unset' : 'difference')};
         }
 
         @media (max-width: 680px) {

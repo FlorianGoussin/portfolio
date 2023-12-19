@@ -6,12 +6,12 @@ export const Wrapper = styled.div`
         text-decoration: none;
 
             @media (max-width: 960px) {
-                color: ${({ colorMode }) => (colorMode === 'light' ? '#000' : '#fff')};
+                color: ${({ $colorMode }) => ($colorMode === 'light' ? '#000' : '#fff')};
             }
     }
 
-    ${({ desktop }) =>
-		desktop
+    ${({ $desktop }) =>
+		$desktop
 			? `
 			align-items: center;
 			display: flex;

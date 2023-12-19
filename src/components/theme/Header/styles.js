@@ -13,8 +13,8 @@ export const Overlay = styled.div`
     display: none;
     transition: 0.4s;
 
-    ${({ navbarMobile }) =>
-        navbarMobile &&
+    ${({ $navbarMobile }) =>
+        $navbarMobile &&
         `
                 display: block;
                 z-index: 4;	

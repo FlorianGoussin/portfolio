@@ -7,7 +7,9 @@ import 'react-vertical-timeline-component/style.min.css'
 // import AddIcon from '@mui/icons-material/Add'
 // import SchoolIcon from '@mui/icons-material/School'
 // import WorkIcon from '@mui/icons-material/Work'
+import { Container } from 'components/basic'
 import projects from 'data/projects'
+import { Wrapper } from './styles'
 
 export const Projects = () => {
     const getTimelineProjects = () =>
@@ -45,10 +47,10 @@ export const Projects = () => {
         ))
 
     return (
-        <section className="projects" id="projects">
+        <Wrapper as={Container} id="projects">
             <VerticalTimeline lineColor="whitesmoke">
                 {getTimelineProjects()}
             </VerticalTimeline>
-        </section>
+        </Wrapper>
     )
 }

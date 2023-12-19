@@ -13,8 +13,8 @@ export const Wrapper = styled.div`
         display: block;
     }
 
-    ${({ navbarMobile }) =>
-		navbarMobile &&
+    ${({ $navbarMobile }) =>
+		$navbarMobile &&
 		`
 			right: 18%;
 			top: 1.4rem;
@@ -44,27 +44,27 @@ export const Bar = styled.div`
 		width: 1.6rem;
 	}
 
-	${({ top, navbarMobile, colorMode }) =>
-		top &&
-		navbarMobile &&
+	${({ $top, $navbarMobile, $colorMode }) =>
+		$top &&
+		$navbarMobile &&
 		`
-		background-color: ${(colorMode === 'light' ? '#212121' : '#fff')};
+		background-color: ${($colorMode === 'light' ? '#212121' : '#fff')};
 		transform: translateY(8px) rotate(-135deg);
 		
 	`}
 
-	${({ mid, navbarMobile }) =>
-		mid &&
-		navbarMobile &&
+	${({ $mid, $navbarMobile }) =>
+		$mid &&
+		$navbarMobile &&
 		`
 		transform: scale(0);
 		`}
 
-	${({ bottom, navbarMobile, colorMode }) =>
-		bottom &&
-		navbarMobile &&
+	${({ $bottom, $navbarMobile, $colorMode }) =>
+		$bottom &&
+		$navbarMobile &&
 		`
-			background-color: ${(colorMode === 'light' ? '#212121' : '#fff')};
+			background-color: ${($colorMode === 'light' ? '#212121' : '#fff')};
 			transform: translateY(-6px) rotate(-45deg);
 	`}
 `;

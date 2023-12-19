@@ -8,9 +8,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Brand = styled.a`
-    color: ${({ colorMode }) => (colorMode === 'light' ? '#000' : '#fff')};
+    color: ${({ $colorMode }) => ($colorMode === 'light' ? '#000' : '#fff')};
 
     @media (max-width: 960px) {
-        mix-blend-mode: ${({ colorMode }) => (colorMode === 'light' ? 'unset' : 'difference')};
+        mix-blend-mode: ${({ $colorMode }) => ($colorMode === 'light' ? 'unset' : 'difference')};
     }
 `;
