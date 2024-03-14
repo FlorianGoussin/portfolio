@@ -7,7 +7,7 @@ import Seo from '../components/seo.js'
 // import * as styles from '../components/index.module.css'
 import { Contact, Projects } from '../components/main/index.js'
 import { About } from '../components/main/About'
-import { GameOfLife } from '../components/main/GameOfLife/index.jsx'
+import { GameOfLife } from '../components/main/GameOfLife'
 
 const IndexPage = () => {
     return (
