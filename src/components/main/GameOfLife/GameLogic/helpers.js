@@ -40,10 +40,11 @@ export class Cell {
         if (this.alive === this.wasAlive) {
             return
         }
+        ctx.clearRect(this.x, this.y, this.cellSize, this.cellSize)
         ctx.beginPath()
         ctx.rect(this.x, this.y, this.cellSize, this.cellSize)
         if (this.alive) {
-            ctx.fillStyle = 'rgba(255,255,255,1)'
+            ctx.fillStyle = 'rgba(255,255,255,0)'
         } else {
             ctx.fillStyle = 'rgba(0,0,0,1)'
         }
